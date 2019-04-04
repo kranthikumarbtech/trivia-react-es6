@@ -1,0 +1,29 @@
+@import 'bootstrap';
+@import 'fonts';
+@import 'typography';
+@import 'buttons';
+
+a {
+  transition: background-color .25s linear, border-color .25s linear, opacity .25s linear, color .25s linear, fill .25s linear;
+}
+
+.container-fluid {
+  max-width: rem(1110);
+}
+
+// text alignment
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.container-fluid {
+  max-width: rem(1110);
+}

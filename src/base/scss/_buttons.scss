@@ -1,0 +1,24 @@
+@import 'settings';
+
+.btn {
+  font-size: rem(16);
+
+  &:active,
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn-info {
+  background: $btn-info-background;
+  border: $btn-info-border;
+  color: $btn-info-color;
+  transition: $btn-info-transition;
+
+  &:hover {
+    background: $btn-info-background-hover;
+    border: $btn-info-border;
+    color: $btn-info-color;
+    cursor: pointer;
+  }
+}

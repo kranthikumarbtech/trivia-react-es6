@@ -1,0 +1,62 @@
+.classpath
+.project
+.settings
+.idea
+.pmd
+target/
+notes/
+build/
+private/
+node_modules/
+src/**/compiled
+Thumbs.db
+.DS_Store
+.DS_Store?
+*~
+nb-actions*.xml
+nbactions*.xml
+nb-configuration.xml
+*.swp
+*.iml
+.codekit
+*.codekit
+.sass-cache
+instances
+node
+eslintOutput.txt
+yarn-error.log
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.classpath
+*.prefs
+*.log
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files #
+######################
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+generated/
+.vlt
+.brackets.json

@@ -1,0 +1,82 @@
+@import 'settings';
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, .h1 {
+  line-height: rem(32);
+  margin-bottom: rem(10);
+}
+
+h2, .h2 {
+  line-height: 1.5;
+  margin-bottom: rem(22);
+}
+
+h3, .h3 {
+  line-height: rem(22);
+  margin-bottom: rem(8);
+}
+
+.p {
+  display: block;
+  margin-top: 0;
+  margin-bottom: .75rem;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.lead {
+  font-size: rem(16);
+  line-height: 1.65;
+}
+
+.subtitle {
+  display: block;
+  margin: 0 auto rem(22);
+}
+
+small {
+  line-height: rem(19);
+}
+
+@include media-breakpoint-up(md) {
+  h1, .h1 {
+    font-size: rem(40);
+    letter-spacing: rem(1);
+    line-height: rem(50);
+    margin-bottom: rem(17);
+  }
+
+  h2, .h2 {
+    font-size: rem(28);
+    margin-bottom: rem(24)
+  }
+
+  h3, .h3 {
+    font-size: rem(26);
+    line-height: rem(33);
+    margin-bottom: rem(15);
+  }
+
+  p, .p {
+    font-size: rem(14);
+  }
+
+  .subtitle {
+    font-size: rem(17);
+    line-height: rem(24);
+    padding: 0 0 rem(23);
+  }
+
+  small {
+    font-size: rem(12);
+    line-height: rem(12);
+  }
+}

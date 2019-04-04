@@ -1,0 +1,59 @@
+<div class="linkUrl">
+                        
+                        <p><strong>Non Semantic Elements:- </strong>Traditionally, developers have implemented non-semantic elements with a class attribute to define the structure and express the meaning of content. It tells nothing about its content. The element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.</p>
+
+<div class="snippet-container" style="undefined;"><div class="sh_bright snippet-wrap"><div class="snippet-menu sh_sourceCode" style="display: block;"><pre style="display: none;"><a class="snippet-copy sh_url" href="#">copy</a><a class="snippet-text sh_url" href="#">text</a></pre><div class="snippet-clipboard" style="position: absolute; left: 1px; top: 3px; width: 38px; height: 16px; z-index: 99; display: none;"><embed id="ZeroClipboardMovie_1" src="/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" name="ZeroClipboardMovie_1" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=1&amp;width=38&amp;height=16" wmode="transparent" width="38" height="16" align="middle"></div></div><pre class="sh_html snippet-formatted sh_sourceCode"><ol class="snippet-num"><li> <span class="sh_keyword">&lt;div&gt;</span> </li><li> <span class="sh_keyword">&lt;span&gt;</span></li></ol></pre><pre class="snippet-textonly sh_sourceCode" style="display:none;"> &lt;div&gt; 
+ &lt;span&gt;
+</pre></div></div>
+
+<p>Example:</p>
+
+<div class="snippet-container" style="undefined;"><div class="sh_bright snippet-wrap"><div class="snippet-menu sh_sourceCode" style="display: block;"><pre style="display: none;"><a class="snippet-copy sh_url" href="#">copy</a><a class="snippet-text sh_url" href="#">text</a></pre><div class="snippet-clipboard" style="position: absolute; left: 1px; top: 3px; width: 38px; height: 16px; z-index: 99; display: none;"><embed id="ZeroClipboardMovie_2" src="/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" name="ZeroClipboardMovie_2" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=2&amp;width=38&amp;height=16" wmode="transparent" width="38" height="16" align="middle"></div></div><pre class="sh_html snippet-formatted sh_sourceCode"><ol class="snippet-num"><li><span class="sh_keyword">&lt;div</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"article"</span><span class="sh_keyword">&gt;</span></li><li>  <span class="sh_keyword">&lt;div</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"header"</span></li><li>        <span class="sh_type">&lt;h1</span><span class="sh_keyword">&gt;</span>My blog post<span class="sh_keyword">&lt;/h1&gt;</span></li><li>        <span class="sh_keyword">&lt;p&gt;</span>An example using divs with classes instead of the new elements.<span class="sh_keyword">&lt;/p&gt;</span></li><li>      <span class="sh_keyword">&lt;/div&gt;</span></li><li>      <span class="sh_comment">&lt;!-- ... content ... --&gt;</span></li><li>  <span class="sh_keyword">&lt;/div&gt;</span></li></ol></pre><pre class="snippet-textonly sh_sourceCode" style="display:none;">&lt;div class="article"&gt;
+  &lt;div class="header"
+        &lt;h1&gt;My blog post&lt;/h1&gt;
+        &lt;p&gt;An example using divs with classes instead of the new elements.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;!-- ... content ... --&gt;
+  &lt;/div&gt;
+</pre></div></div>
+
+<p><br></p>
+
+<p><strong>Semantic Elements:-</strong>
+ It introduces meaning to the web page rather than just presentation.</p>
+
+<div class="snippet-container" style="undefined;"><div class="sh_bright snippet-wrap"><div class="snippet-menu sh_sourceCode" style="display: block;"><pre style="display: none;"><a class="snippet-copy sh_url" href="#">copy</a><a class="snippet-text sh_url" href="#">text</a></pre><div class="snippet-clipboard" style="position: absolute; left: 1px; top: 3px; width: 38px; height: 16px; z-index: 99; display: none;"><embed id="ZeroClipboardMovie_3" src="/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" name="ZeroClipboardMovie_3" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=3&amp;width=38&amp;height=16" wmode="transparent" width="38" height="16" align="middle"></div></div><pre class="sh_html snippet-formatted sh_sourceCode"><ol class="snippet-num"><li><span class="sh_keyword">&lt;article&gt;</span>         It defines an article in the document</li><li><span class="sh_keyword">&lt;aside&gt;</span>          It defines content aside from the page content</li><li><span class="sh_keyword">&lt;bdi&gt;</span>              It defines a part of text that might be formatted in a different direction from other text</li><li><span class="sh_keyword">&lt;details&gt;</span>        It defines additional details that the user can view or hide</li><li><span class="sh_keyword">&lt;dialog&gt;</span>         It defines a dialog box or window</li><li><span class="sh_keyword">&lt;figcaption&gt;</span>   It defines a caption for a <span class="sh_keyword">&lt;figure&gt;</span> element</li><li><span class="sh_keyword">&lt;figure&gt;</span>         It defines self-contained content, like illustrations, diagrams, photos, code listings, etc.</li><li><span class="sh_keyword">&lt;footer&gt;</span>         It defines a footer for the document or a section</li><li><span class="sh_keyword">&lt;header&gt;</span>       It defines a header for the document or a section</li><li><span class="sh_keyword">&lt;main&gt;</span>          It defines the main content of a document</li><li><span class="sh_keyword">&lt;mark&gt;</span>          It defines marked or highlighted text</li><li><span class="sh_keyword">&lt;menuitem&gt;</span>  It defines a menu item that the user can invoke from a popup menu</li><li><span class="sh_keyword">&lt;meter&gt;</span>         It defines a scalar measurement within a known range</li><li><span class="sh_keyword">&lt;nav&gt;</span>            It defines navigation links in the document</li><li><span class="sh_keyword">&lt;progress&gt;</span>       It defines the progress of a task</li><li><span class="sh_keyword">&lt;rp&gt;</span>               It defines what to show in browsers that do not support ruby annotations</li><li><span class="sh_keyword">&lt;rt&gt;</span>                It defines an explanation/pronunciation of characters </li><li><span class="sh_keyword">&lt;ruby&gt;</span>           It defines a ruby annotation </li><li><span class="sh_keyword">&lt;section&gt;</span>      It defines a section in the document</li><li><span class="sh_keyword">&lt;summary&gt;</span>   It defines a visible heading for a <span class="sh_keyword">&lt;details&gt;</span> element </li><li><span class="sh_keyword">&lt;time&gt;</span>           It defines a date/time</li><li><span class="sh_keyword">&lt;wbr&gt;</span>            It defines a possible line-break</li></ol></pre><pre class="snippet-textonly sh_sourceCode" style="display:none;">&lt;article&gt;         It defines an article in the document
+&lt;aside&gt;          It defines content aside from the page content
+&lt;bdi&gt;              It defines a part of text that might be formatted in a different direction from other text
+&lt;details&gt;        It defines additional details that the user can view or hide
+&lt;dialog&gt;         It defines a dialog box or window
+&lt;figcaption&gt;   It defines a caption for a &lt;figure&gt; element
+&lt;figure&gt;         It defines self-contained content, like illustrations, diagrams, photos, code listings, etc.
+&lt;footer&gt;         It defines a footer for the document or a section
+&lt;header&gt;       It defines a header for the document or a section
+&lt;main&gt;          It defines the main content of a document
+&lt;mark&gt;          It defines marked or highlighted text
+&lt;menuitem&gt;  It defines a menu item that the user can invoke from a popup menu
+&lt;meter&gt;         It defines a scalar measurement within a known range
+&lt;nav&gt;            It defines navigation links in the document
+&lt;progress&gt;       It defines the progress of a task
+&lt;rp&gt;               It defines what to show in browsers that do not support ruby annotations
+&lt;rt&gt;                It defines an explanation/pronunciation of characters 
+&lt;ruby&gt;           It defines a ruby annotation 
+&lt;section&gt;      It defines a section in the document
+&lt;summary&gt;   It defines a visible heading for a &lt;details&gt; element 
+&lt;time&gt;           It defines a date/time
+&lt;wbr&gt;            It defines a possible line-break
+</pre></div></div>
+
+<p>Example:</p>
+
+<div class="snippet-container" style="undefined;"><div class="sh_bright snippet-wrap"><div class="snippet-menu sh_sourceCode" style="display: block;"><pre style="display: none;"><a class="snippet-copy sh_url" href="#">copy</a><a class="snippet-text sh_url" href="#">text</a></pre><div class="snippet-clipboard" style="position: absolute; left: 1px; top: 3px; width: 38px; height: 16px; z-index: 99; display: none;"><embed id="ZeroClipboardMovie_4" src="/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" name="ZeroClipboardMovie_4" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=4&amp;width=38&amp;height=16" wmode="transparent" width="38" height="16" align="middle"></div></div><pre class="sh_html snippet-formatted sh_sourceCode"><ol class="snippet-num"><li> <span class="sh_keyword">&lt;article&gt;</span></li><li>          <span class="sh_keyword">&lt;header&gt;</span></li><li>            <span class="sh_keyword">&lt;h1&gt;</span>My blog post<span class="sh_keyword">&lt;/h1&gt;</span></li><li>            <span class="sh_keyword">&lt;p&gt;</span>The same article but switched to the new elements.<span class="sh_keyword">&lt;/p&gt;</span></li><li>          <span class="sh_keyword">&lt;/header&gt;</span></li><li>          <span class="sh_comment">&lt;!-- ... content ... --&gt;</span></li><li>         <span class="sh_keyword">&lt;/article&gt;</span></li></ol></pre><pre class="snippet-textonly sh_sourceCode" style="display:none;"> &lt;article&gt;
+          &lt;header&gt;
+            &lt;h1&gt;My blog post&lt;/h1&gt;
+            &lt;p&gt;The same article but switched to the new elements.&lt;/p&gt;
+          &lt;/header&gt;
+          &lt;!-- ... content ... --&gt;
+         &lt;/article&gt;
+</pre></div></div>
+                      </div>

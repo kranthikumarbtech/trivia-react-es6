@@ -1,0 +1,159 @@
+<div class="entry-inner">
+<hr>
+<h2>Here are the top 20 Html5 interview questions and answers for freshers</h2>
+<hr>
+<ul class="faq-li">
+<li>Q1. What is HTML? Define its purpose and use as well?</li>
+<li>A1. <em>HTML is the short form for Hyper Text Markup Language</em> and with the release of its latest version HTML5 is used diversely in crafting animated and beautiful websites by creating web layouts of amazing user experience.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q2. What is the correct syntax for Doctype in HTML5?</li>
+<li>A2. Latest syntax for HTML5 document type is now <strong>&lt;! DOCTYPE&gt;</strong> only! It is not a HTML tag but instructs the browser about the version of the HTML being used.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q3. Explain the meaning of the term ‘HTML attributes’!</li>
+<li>A3. These are part of the tags that gives them context and purpose for their meaning like <strong>href</strong> attribute for &lt;a&gt; tag in HTML. Similarly there are some <a href="http://www.tutorialmines.net/html-global-attributes/" target="_blank">HTML Global attributes</a> which can be used on all tags directly.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q4. What are semantic elements?</li>
+<li>A4. Semantic elements are those which clearly defines their own meaning with names only like &lt;form&gt;, &lt;table&gt; tags tell their work whereas &lt;div&gt;, &lt;span&gt; are non-semantic elements telling none about their content placed inside them whatsoever.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q5. Is case-sensitivity a issue with HTML5?</li>
+<li>A5. No, you can write mixing of uppercase and lowercase alphabets but recommended standard is lowercase.</li>
+<div class="box-tip">
+<div class="tip-content">HTML Tags are not case sensitive</div>
+</div>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q6. Name few new HTML5 tags that will form the core of the web for present and future modern layouts?</li>
+<li>A6. HTML5 brings with range of new elements and tags that will be found in all modern layouts are &lt;header&gt;, &lt;nav&gt;, &lt;footer&gt;, &lt;section&gt;, &lt;article&gt;. These are some of the most important tags and are found in almost all the newer version of themes, templates and web layouts.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q7. Explain the benefits of using HTML5 as opposed to earlier version of HTML!</li>
+<li>A7. HTML5 has made direct functionalities and provides access for lot of things that were before could only be used with 3rd party plugins or separate programs.
+<ul class="faq-li-li">
+<li>New semantic elements that are purposefully made for their name use like &lt;header&gt; for header section, &lt;footer&gt; for footer section and other &lt;nav&gt;, &lt;article&gt;, &lt;section&gt; &amp; so on</li>
+<li>Improved JavaScript API for geolocation, drag-and-drop and media APIs.</li>
+<li>Support for audio with &lt;audio&gt; tag, Video with &lt;video&gt; tag and &lt;canvas&gt; tag for embedding graphics directly into HTML5.</li>
+<li>Enhanced support for multi-platform accessibility.</li>
+<li>New form elements(&lt;time&gt;, &lt;url&gt; etc) and smooth validation process that works like charm.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q8. What are the differences between inline and block elements?</li>
+<li>A8. Inline elements take only the space in their line with no margin-padding like &lt;a&gt;, &lt;hr&gt;, &lt;span&gt; etc whereas Block elements block the whole area once placed in the html layout like &lt;div&gt;, &lt;h1&gt;, &lt;p&gt; etc!</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q9. Define the data-attributes in the current form of HTML5?</li>
+<li>A9. Data attributes in HTML5 are used to embed custom data to an element which are quite helpful developing Single Page Applications in the modern web development.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q10. How you will explain the datalist element in HTML5?</li>
+<li>A10. Using HTML5 datalist element, auto-complete facility is provided in text box using just tags only.</li>
+</ul>
+
+
+<hr>
+<ul class="faq-li">
+<li>Q11. Can you link image with webpage? Is it possible? If possible please explain in detail!</li>
+<li>A11. Linking image with webpage is done by placing the &lt;img&gt; tag inside &lt;a&gt; and closing the tags accordingly within. Source of the image is defined with <em>src</em> attribute</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q12. How you can differentiate between &lt;article&gt; and &lt;section&gt; tags?</li>
+<li>A12. &lt;article&gt; defines a document whereas &lt;section&gt; is part of the page. Both can be used inside each other as the conditions ask for it with purposely defined structure in the web layout.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q13. What are Web Workers?</li>
+<li>A13. These are just JavaScript files that run in the background.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q14. Explain the media tags associated with HTML5!</li>
+<li>A14. &lt;audio&gt; and &lt;video&gt; tags are the new addition in the HTML5 with</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q15. Are we allowed to multiple use of tags like &lt;header&gt;, &lt;footer&gt; in the formation of the web layouts of the designing?</li>
+<li>A15. Yes, these two tags &lt;header&gt;,&lt;footer&gt; have been created with purpose of using them multiple time for every part of the body(section). Every section can have their own &lt;header&gt; tag and &lt;footer&gt;&nbsp;tag marking their own identity in the HTML</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q16. Which tag has replaced most of the properties of Flash in HTML5?</li>
+<li>A16. &lt;Canvas&gt; is the tag that has a lot of properties similar to Flash directly integrated into HTML5 with access for drawing boxes, paths, circles, text and graphic images.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q17. Can we create new elements in HTML5? is there any criteria for it?</li>
+<li>A17. Yes, you can create new elements but using JavaScript with purposeful meaning.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q18. List few tags that are now not supported with HTML5!</li>
+<li>A18. Yes there are some tags that are either replaced with new tags or merged with some old ones and some replaced with CSS properties entirely. These are &lt;acronym&gt;, &lt;s&gt; etc and click here for complete <a href="http://www.tutorialmines.net/list-of-tags-not-supported-in-html5/" target="_blank">list of tags not supported in HTML5</a></li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q19. Can you store data locally in HTML5? Is there a possibility? Explain!</li>
+<li>A19. Yes, HTML5 offers local storage within user’s browser. Earlier this functionality was handled by cookies. Localstorage through HTML5 is permanent until user deletes it himself whereas Sessionstorage is over as soon you close the browser of your system.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q20. With the advent of HTML5, are there any changes in API use for HTML5 with web development?</li>
+<li>A20. Yes there quite a few changes with API integration with HTML5 that are new and will make development easy like High Resolution Time API, Media API, Text track API, User timing API, Data Transfer API, Command API, History API creating web environment for future.</li>
+</ul>
+<hr>
+
+
+<h4>HTML5 Tricky interview questions</h4>
+<hr>
+<ul class="faq-li">
+<li>Q21. What is the default Browser font size of HTML5?</li>
+<li>A21. 16 px is the browser default in case there are no specified font size value being assinged in the CSS. Otherwise the given value will take effect respectively.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q22. Is it necessary to close HTML tags while making layouts?</li>
+<li>A22. Yes One must close all the tags as they might have individual properties with respect to inline or block elements. But there are single elements can survive without closing like<br>
+&lt;hr&gt; tag, &lt;br&gt; tag etc.
+</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q23. Can we use percentage in font sizes?</li>
+<li>A23. Only if we use them with specific set for e.g. if the website is set with default size 16px than we can use values like em to scale them with our choices i.e 1.25% em</li>
+</ul>
+<div class="box-tip">
+<div class="tip-content">Font measuring units <em>px</em> are absolute while <em>em, pt</em> are scalable</div>
+</div>
+<hr>
+<ul class="faq-li">
+<li>Q24. What is HTML Shiv?</li>
+<li>A24. HTML Shiv is JavaScript fix made by Individual brilliance of <em>Sjoerd Visscher</em> for enable styling of HTML5 Internet Explorer that are prior to version 9.</li>
+</ul>
+<hr>
+<ul class="faq-li">
+<li>Q25. What is HTML5 boilerplate? </li>
+<li>A25. HTML5 Boilerplate is a professional front-end template that is used to create  fast, robust and adaptable HTML5 sites that are Cross Browser compatible features.</li>
+</ul>
+<hr>
+
+
+
+
+
+
+
+													</div>
